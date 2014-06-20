@@ -1,0 +1,75 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+p.alert {
+    text-align: center;
+    font-weight: bold;
+    padding: 10pt;
+    margin: 0;
+    background-color: #888;
+    color: #fff;
+}
+p.alert-error {
+    background-color: #ff3333;
+}
+.center-text {
+    text-align: center;
+}
+.container {
+}
+#login-block {
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    padding: 10pt;
+    max-width: 375px;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid #ddd;
+    border-top: 0;
+}
+.title {
+    background: #85cf85;
+    margin: -10pt -10pt 20pt -10pt;
+    font-size: 200%;
+    text-align: center;
+}
+.title > * {
+    padding: 5pt;
+}
+.control-group {
+    clear: both;
+    margin: 10pt 0;
+    overflow: hidden;
+}
+.label {
+    float: left;
+    vertical-align: middle;
+}
+.field {
+    float:right;
+    width: 65%;
+    overflow: hidden;
+    text-align: right;
+}
+.field > * {
+    width: 97%;
+    font-size: 100%;
+    text-align: left;
+}
+.form-actions {
+    text-align: right;
+}
+.btn {
+    border-radius: 4pt;
+    background: #ddd;
+    color: #444;
+    font-weight: bold;
+    font-size: 100%;
+    padding: 2px 8px;
+}

@@ -1,0 +1,25 @@
+{
+    "name": "allegro/auth",
+    "description": "A simple authentication implementation using Sentry",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arturo Rodríguez",
+            "email": "arturo@fugadigital.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "cartalyst/sentry": "2.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Allegro\\Auth": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
